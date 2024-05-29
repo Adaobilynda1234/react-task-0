@@ -1,4 +1,4 @@
-/* Variables */
+/*  css Variables */
 
 :root {
   --bg-primary: hsl(205, 26%, 17%);
@@ -424,11 +424,11 @@ body {
   box-shadow: var(--border-shadow_hover);
 }
 
-/* Utils */
-
 .hide {
   display: none;
 }
+
+/* media query */
 
 @media (max-width: 640px) {
   .cards-container {

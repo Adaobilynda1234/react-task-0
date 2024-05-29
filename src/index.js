@@ -1,4 +1,4 @@
-/* Helpers */
+/* function for Api call */
 
 const API = "https://restcountries.com/v3.1/";
 
@@ -13,7 +13,7 @@ async function getData() {
   }
 }
 
-/* Main logic */
+/* Defining Variable by id */
 
 const cardsContainer = document.querySelector(".cards-container");
 const searchIcon = document.querySelector(".search-bar__icon");
