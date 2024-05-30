@@ -1,10 +1,10 @@
 /* function for Api call */
 
-const API = "https://restcountries.com/v3.1";
+const API = "https://restcountries.com/v3.1/";
 
 async function getData() {
   try {
-    const response = await fetch(`${API}/all`);
+    const response = await fetch(`${API}all`);
     const result = await response.json();
 
     return result;
